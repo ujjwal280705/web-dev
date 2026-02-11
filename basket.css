@@ -1,0 +1,62 @@
+  @font-face {
+    font-family:'digital' ;
+    src: url(digital-7.monoitalic.ttf);
+}
+body{
+    background: rgb(201, 213, 191);
+  
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.main
+{   background-image: url('image.png');
+  background-repeat: no-repeat;
+  
+  background-size: cover;
+    
+    width: 500px;
+    height: 230px;
+   
+     display: flex;
+     justify-content: space-around;
+   
+    border-radius: 20px;
+}
+h1{
+    color: rgb(207, 206, 206);
+    margin-bottom: 3px;
+    text-shadow: 4px 4px 4px  rgb(0, 0, 0);
+    font-family: "Google Sans", sans-serif;
+}
+.sc{
+    margin-top: 0px;
+    font-size: 60px;
+    width: 100px;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    border-radius: 10%;
+}
+span
+{   font-family: 'digital';
+    margin-top: 08px;
+    color: rgb(175, 52, 52);
+}
+.btn
+{  
+    
+    margin-top: 20px;
+}
+.b{
+    font-family: 'digital';
+  background: rgba(1, 1, 68, 0.687);
+  color:  rgb(175, 172, 172);
+  border: 1.5px solid  rgb(119, 118, 118);
+  border-radius: 4px;
+  padding: 5px 10px;
+}
